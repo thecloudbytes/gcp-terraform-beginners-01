@@ -36,3 +36,20 @@ gcloud iam service-accounts keys create terraform-key.json \
    --iam-account=${SERVICE_ACCOUNT_ID}@${PROJECT_ID}.iam.gserviceaccount.com
 ```
 
+## Build Shit with Terraform!
+
+```
+terraform init
+```
+
+```
+terraform plan
+```
+
+```
+terraform apply
+```
+
+```
+terraform show
+```
