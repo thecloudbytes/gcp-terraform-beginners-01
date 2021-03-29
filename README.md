@@ -16,7 +16,7 @@ SERVICE_ACCOUNT_ID=sa-terraform-beginners
 ```
 
 ```
-gcloud iam service-accounts create sa-terraform-beginners \
+gcloud iam service-accounts create ${SERVICE_ACCOUNT_ID} \
 --description="Used by Terraform to provision Infrastructure" \
 --display-name="Terraform Service Account"
 ```
