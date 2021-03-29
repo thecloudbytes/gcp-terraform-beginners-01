@@ -39,6 +39,10 @@ gcloud iam service-accounts keys create terraform-key.json \
 ## Build Shit with Terraform!
 
 ```
+cd terraform
+```
+
+```
 terraform init
 ```
 
