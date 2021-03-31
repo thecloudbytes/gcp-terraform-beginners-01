@@ -58,6 +58,7 @@ terraform apply
 terraform show
 ```
 
+Clean up resources if desired. 
 ```
 terraform destroy
 ```
